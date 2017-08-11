@@ -1,0 +1,17 @@
+
+
+/********** 3. HEADER STYLES **********/
+/**************************************/
+
+.headerwrapper {
+    background-color: #1f6b9e;
+    min-height: 60px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.headerwrapper:after {
+    clear: both;
+    display: block;
+    content: '';
+}

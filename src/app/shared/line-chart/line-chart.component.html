@@ -1,0 +1,12 @@
+<div style="display: block;"><canvas baseChart
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [options]="lineChartOptions"
+                [colors]="lineChartColors"
+                [legend]="lineChartLegend"
+                [chartType]="lineChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+                <p>&nbsp;</p>
+                <button class="btn btn-primary" (click)="randomize()">Randomize</button>
+</div>

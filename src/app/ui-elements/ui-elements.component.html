@@ -1,0 +1,207 @@
+<div class="" id="page-wrapper">
+  <div class="container-fluid">
+    <div class="row row-stat">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-heading-divider">Tabs<span class="panel-subtitle">These are the ngx-bootstrap tabs using <code>&lt;tabset&gt;&lt;/tabset&gt; </code></span></div>
+          <div class="panel-body">
+            <div class="xs-mt-10 xs-mb-10">
+              <div>
+                <tabset>
+                  <tab heading="Static title">
+                    <h6 class="xs-mt-40 xs-mb-10"><strong> Static content</strong></h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat.</p>
+                  </tab>
+                  <tab heading="Static Title 1">
+                    <p class="xs-mt-10 xs-mb-10">Static content 1</p>
+                  </tab>
+                  <tab heading="Static Title 2">
+                    <p class="xs-mt-10 xs-mb-10">Static content 2</p>
+                  </tab>
+                  <tab>
+                    <ng-template tabHeading>
+                      <i class="glyphicon glyphicon-bell"></i> Alert!
+                    </ng-template>
+                    <p class="xs-mt-10 xs-mb-10">I've got an HTML heading, and a select callback. Pretty cool!</p>
+                  </tab>
+                </tabset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-heading-divider">Pagination<span class="panel-subtitle">These are the ngx-bootstrap tabs using <code>&lt;pagination&gt;&lt;/pagination&gt; </code></span></div>
+          <div class="panel-body">
+            <div class="xs-mt-10 xs-mb-10">
+              <div class="xs-mb-50 xs-mt-40">
+                <pagination [totalItems]="totalItems"></pagination>
+              </div>
+              <div class="xs-mb-50">
+                <pagination [boundaryLinks]="true" [totalItems]="totalItems" class="pagination-sm" previousText="&lsaquo;" nextText="&rsaquo;"
+                  firstText="&laquo;" lastText="&raquo;"></pagination>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-heading-divider">Default Alerts<span class="panel-subtitle">These are the default bootstrap alerts style</span></div>
+          <div class="panel-body">
+            <alert type="success" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-check"></span><strong>Good!</strong> You're looking good.
+              </div>
+            </alert>
+            <alert type="primary" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-information-outline"></span><strong>Info!</strong> If you would like to inform
+                something to the user
+              </div>
+            </alert>
+            <alert type="warning" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-alert"></span><strong>Warning!</strong> When something is about to go wrong
+              </div>
+            </alert>
+            <alert type="danger" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-close-circle"></span><strong>Danger!</strong> Something completely wrong.
+              </div>
+            </alert>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-heading-divider">Contrasts Alerts<span class="panel-subtitle">Alerts with icon contrast background</span></div>
+          <div class="panel-body">
+            <alert type="success" class="alert-contrast" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-check"></span><strong>Good!</strong> You're looking good.
+              </div>
+            </alert>
+            <alert class="alert-contrast"  type="primary" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-information-outline"></span><strong>Info!</strong> If you would like to inform
+                something to the user
+              </div>
+            </alert>
+            <alert class="alert-contrast"  type="warning" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-alert"></span><strong>Warning!</strong> When something is about to go wrong
+              </div>
+            </alert>
+            <alert class="alert-contrast"  type="danger" dismissible="true">
+              <div>
+                <span class="icon mdi mdi-close-circle"></span><strong>Danger!</strong> Something completely wrong.
+              </div>
+            </alert>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-heading-divider">Default Buttons<span class="panel-subtitle">These are the default bootstrap button style</span></div>
+          <div class="panel-body text-center">
+            <p>&nbsp;</p>
+            <p class="xs-mt-10 xs-mb-10">
+              <button class="btn btn-space btn-default">Default</button>
+              <button class="btn btn-space btn-primary">Primary</button>
+              <button class="btn btn-space btn-danger">Danger</button>
+              <button class="btn btn-space btn-warning">Warning</button>
+              <button class="btn btn-space btn-success">Success</button>
+            </p>
+            <p>&nbsp;</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-heading-divider">Buttons with icons<span class="panel-subtitle">These are the customised buttons with icons</span></div>
+          <div class="panel-body text-center">
+            <p>&nbsp;</p>
+            <p class="xs-mt-10 xs-mb-10">
+              <button class="btn btn-space btn-default"><i class="icon icon-left mdi  mdi-earth"></i> Default</button>
+              <button class="btn btn-space btn-primary"><i class="icon icon-left mdi mdi-cloud"></i> Primary</button>
+              <button class="btn btn-space btn-danger"><i class="icon icon-left mdi mdi-alert-circle"></i> Danger</button>
+              <button class="btn btn-space btn-warning"><i class="icon icon-left mdi mdi-alert"></i> Warning</button>
+              <button class="btn btn-space btn-success"><i class="icon icon-left mdi mdi-check"></i> Success</button>
+            </p>
+            <p>&nbsp;</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-heading panel-heading-divider">Buttons with dropdown<span class="panel-subtitle">These are the customised buttons with dropdown</span></div>
+          <div class="panel-body text-center">
+            <div class="xs-mt-20 xs-mb-30">
+              <div class="btn-group" dropdown>
+                <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">Primary dropdown</button>
+                <ul *dropdownMenu class="dropdown-menu" role="menu">
+                  <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li class="divider dropdown-divider"></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group" dropdown>
+                <button dropdownToggle type="button" class="btn btn-default dropdown-toggle">Default dropdown</button>
+                <ul *dropdownMenu class="dropdown-menu" role="menu">
+                  <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li class="divider dropdown-divider"></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group" dropdown>
+                <button dropdownToggle type="button" class="btn btn-danger dropdown-toggle">Danger dropdown</button>
+                <ul *dropdownMenu class="dropdown-menu" role="menu">
+                  <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li class="divider dropdown-divider"></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group" dropdown>
+                <button dropdownToggle type="button" class="btn btn-warning dropdown-toggle">Warning dropdown</button>
+                <ul *dropdownMenu class="dropdown-menu" role="menu">
+                  <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li class="divider dropdown-divider"></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="btn-group" dropdown>
+                <button dropdownToggle type="button" class="btn btn-success dropdown-toggle">Success dropdown</button>
+                <ul *dropdownMenu class="dropdown-menu" role="menu">
+                  <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li class="divider dropdown-divider"></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
