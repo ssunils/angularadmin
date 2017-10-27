@@ -4,7 +4,11 @@ This is a free admin template using AngularJs 4
 
 ## Development server
 
-Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start:client` for a front-end dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+or
+
+Run `npm run start:server` to run the backend NodeJs server. Navigate to `http://localhost:4300/`.
 
 ## Code scaffolding
 
