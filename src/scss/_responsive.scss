@@ -1,0 +1,31 @@
+@include media-breakpoint-up(xs) { 
+
+ }
+@include media-breakpoint-up(sm) { 
+
+ }
+@include media-breakpoint-up(md) { 
+
+ }
+@include media-breakpoint-up(lg) { 
+
+ }
+@include media-breakpoint-up(xl) { 
+
+ }
+
+
+@include media-breakpoint-down(xs) { 
+
+ }
+@include media-breakpoint-down(sm) { 
+    #page-wrapper {
+        margin: 0 0 0 0px;
+    }
+ }
+@include media-breakpoint-down(md) { 
+
+ }
+@include media-breakpoint-down(lg) { 
+
+ }

@@ -1,0 +1,215 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background: #eceeef;
+}
+body {
+    background: transparent;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    color: #686868;
+    font-weight: 300;
+}
+/*@import "assets/css/style.default.css";*/
+.sidebar {
+  z-index: 10;
+  position: absolute;
+  width: 220px;
+  padding-top: 10px;
+  height: 100%;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  box-shadow: 1px 5px 4px #ccc;
+}
+.fix-sidebar .sidebar {
+    position: fixed;
+    overflow: hidden
+}
+.fix-sidebar .top-left-part {
+    position: fixed;
+    width: 220px
+}
+.fix-sidebar .navbar-left {
+    margin-left: 220px
+}
+.input-group.custom-search-form {
+    margin: 30px 0;
+    padding: 0px 10px;
+}
+#side-menu {
+    display: block;
+    transition: .5 easy-out;
+}
+#page-wrapper {
+    position: inherit;
+    margin: 0 0 0 220px;
+}
+.container-fluid {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.white-box {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 6px #ccc;
+}
+ul#side-menu a {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ffffff;
+    color: #5c6270;
+    background: #f2f2f2;
+}
+ul#side-menu a i {
+    display: inline-block;
+    min-width: 20px;
+    color: #414141;
+}
+ul#side-menu a.active i, ul#side-menu a:hover i  {
+    color: inherit;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #86c7f3;
+    border-color: #73b5e2;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #1f6b9e;
+    border-color: #0f4163;
+}
+.label-rouded.label-danger {
+    background: rgb(134, 199, 243);
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 26px;
+    border-radius: 100px;
+    margin-top: -1px;
+}
+.logo{
+    padding: 20px;
+    max-width: 190px;
+}
+.btn {
+    border-radius: 0;
+    padding: 8px 20px;
+}
+ul#side-menu a.active {
+    background: #ff6384;
+    color: #fff;
+}
+ul#side-menu a:hover{
+    color: #fff;
+    background-color: #1f6b9e;
+    text-decoration: none;
+}
+ul#side-menu li.user-pro a {
+    color: #6f6f6f;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+ul#side-menu li.user-pro a small {
+    display: block;
+    font-size: 60%;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+
+
+/********* 10. DASHBOARD STYLES **********/
+/*****************************************/
+
+.flotLegend {
+    margin-bottom: 10px;
+}
+.flotLegend table tr td {
+    padding-right: 5px;
+}
+
+.row-stat .panel .panel-heading {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.panel-icon {
+    background: rgba(255,255,255,0.9);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+}
+
+.panel-icon .fa {
+    color: #000;
+    font-size: 36px;
+    padding: 12px 0 0 19px;
+}
+
+.panel-bluegreen .panel-icon .fa {
+    color: #03c3c4;
+}
+
+.panel-violet .panel-icon .fa {
+    color: #905dd1;
+}
+
+.panel-blue .panel-icon .fa {
+    color: #e42b38;
+}
+
+.row-stat .md-title {
+    opacity: 0.6;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.row-stat h1 {
+    margin-bottom: 0;
+}
+
+.row-stat hr {
+    opacity: 0.2;
+    margin: 20px 0;
+    border-width: 1px;
+    background: #fff;
+}
+
+.panel-icon .fa-users {
+    padding: 12px 0 0 10px;
+}
+
+.panel-icon .fa-pencil {
+    padding: 12px 0 0 17px;
+}
+
+.sublabel {
+    font-size: 11px;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.flotChart {
+    width: 100%;
+    height: 200px;
+}
+
+#bar-chart {
+    height: 250px;
+}
