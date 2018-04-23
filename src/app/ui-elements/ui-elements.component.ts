@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ui-elements.component.scss']
 })
 export class UiElementsComponent implements OnInit {
-  public totalItems: number = 64;
-  public currentPage: number = 4;
-  public smallnumPages: number = 0;
+  public totalItems = 64;
+  public currentPage = 4;
+  public smallnumPages = 0;
   public alerts: any = [
     {
       type: 'success',
