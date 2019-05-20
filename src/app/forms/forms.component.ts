@@ -1,5 +1,6 @@
-import { Router, ActivatedRoute } from '@angular/router';
-import { Component, OnInit } from '@angular/core';
+import {Router, ActivatedRoute} from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+
 @Component({
   selector: 'app-forms',
   templateUrl: './forms.component.html',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormsComponent implements OnInit {
   public pageData;
-  constructor(router:Router, private route:ActivatedRoute) { 
-    
-   }
+
+  constructor(router: Router, private route: ActivatedRoute) {
+
+  }
 
   ngOnInit() {
     this.pageData = <any>this.route.snapshot.data;

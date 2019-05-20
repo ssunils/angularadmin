@@ -213,3 +213,869 @@ ul#side-menu li.user-pro a small {
 #bar-chart {
     height: 250px;
 }
+
+// Form Styles
+
+
+/*Form Styles*/
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 19.5px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #000;
+  font-size: 14px;
+}
+input[type=search] {
+  box-sizing: border-box
+}
+input[type=checkbox],
+input[type=radio] {
+  margin: 4px 0 0;
+  margin-top: 1px\9;
+  line-height: normal
+}
+input[type=file] {
+  display: block
+}
+input[type=range] {
+  display: block;
+  width: 100%
+}
+select[multiple],
+select[size] {
+  height: auto
+}
+output {
+  display: block;
+  padding-top: 7px;
+  font-size: 13px;
+  line-height: 1.538462;
+  color: #555
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.538462;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+.form-control:focus {
+  border-color: #ccc;
+  outline: 0
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1
+}
+.form-control:-ms-input-placeholder {
+  color: #999
+}
+.form-control::-webkit-input-placeholder {
+  color: #999
+}
+.form-control::-ms-expand {
+  border: 0;
+  background-color: transparent
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1
+}
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed
+}
+textarea.form-control {
+  height: auto
+}
+input[type=search] {
+  -webkit-appearance: none
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type=date].form-control,
+  input[type=time].form-control,
+  input[type=datetime-local].form-control,
+  input[type=month].form-control {
+    line-height: 34px
+  }
+  .input-group-sm input[type=date],
+  .input-group-sm input[type=time],
+  .input-group-sm input[type=datetime-local],
+  .input-group-sm input[type=month],
+  .input-group-sm>.input-group-btn>input[type=date].btn,
+  .input-group-sm>.input-group-btn>input[type=time].btn,
+  .input-group-sm>.input-group-btn>input[type=datetime-local].btn,
+  .input-group-sm>.input-group-btn>input[type=month].btn,
+  .input-group-sm>input[type=date].form-control,
+  .input-group-sm>input[type=date].input-group-addon,
+  .input-group-sm>input[type=time].form-control,
+  .input-group-sm>input[type=time].input-group-addon,
+  .input-group-sm>input[type=datetime-local].form-control,
+  .input-group-sm>input[type=datetime-local].input-group-addon,
+  .input-group-sm>input[type=month].form-control,
+  .input-group-sm>input[type=month].input-group-addon,
+  input[type=date].input-sm,
+  input[type=time].input-sm,
+  input[type=datetime-local].input-sm,
+  input[type=month].input-sm {
+    line-height: 28px
+  }
+  .input-group-lg input[type=date],
+  .input-group-lg input[type=time],
+  .input-group-lg input[type=datetime-local],
+  .input-group-lg input[type=month],
+  .input-group-lg>.input-group-btn>input[type=date].btn,
+  .input-group-lg>.input-group-btn>input[type=time].btn,
+  .input-group-lg>.input-group-btn>input[type=datetime-local].btn,
+  .input-group-lg>.input-group-btn>input[type=month].btn,
+  .input-group-lg>input[type=date].form-control,
+  .input-group-lg>input[type=date].input-group-addon,
+  .input-group-lg>input[type=time].form-control,
+  .input-group-lg>input[type=time].input-group-addon,
+  .input-group-lg>input[type=datetime-local].form-control,
+  .input-group-lg>input[type=datetime-local].input-group-addon,
+  .input-group-lg>input[type=month].form-control,
+  .input-group-lg>input[type=month].input-group-addon,
+  input[type=date].input-lg,
+  input[type=time].input-lg,
+  input[type=datetime-local].input-lg,
+  input[type=month].input-lg {
+    line-height: 45px
+  }
+}
+.form-group {
+  margin-bottom: 15px
+}
+.checkbox,
+.radio {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.checkbox label,
+.radio label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  cursor: pointer
+}
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox],
+.radio input[type=radio],
+.radio-inline input[type=radio] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px\9
+}
+.checkbox+.checkbox,
+.radio+.radio {
+  margin-top: -5px
+}
+.checkbox-inline,
+.radio-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: 400;
+  cursor: pointer
+}
+.checkbox-inline+.checkbox-inline,
+.radio-inline+.radio-inline {
+  margin-top: 0;
+  margin-left: 10px
+}
+fieldset[disabled] input[type=checkbox],
+fieldset[disabled] input[type=radio],
+input[type=checkbox].disabled,
+input[type=checkbox][disabled],
+input[type=radio].disabled,
+input[type=radio][disabled] {
+  cursor: not-allowed
+}
+.checkbox-inline.disabled,
+.radio-inline.disabled,
+fieldset[disabled] .checkbox-inline,
+fieldset[disabled] .radio-inline {
+  cursor: not-allowed
+}
+.checkbox.disabled label,
+.radio.disabled label,
+fieldset[disabled] .checkbox label,
+fieldset[disabled] .radio label {
+  cursor: not-allowed
+}
+.form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+  min-height: 33px
+}
+.form-control-static.input-lg,
+.form-control-static.input-sm,
+.input-group-lg>.form-control-static.form-control,
+.input-group-lg>.form-control-static.input-group-addon,
+.input-group-lg>.input-group-btn>.form-control-static.btn,
+.input-group-sm>.form-control-static.form-control,
+.input-group-sm>.form-control-static.input-group-addon,
+.input-group-sm>.input-group-btn>.form-control-static.btn {
+  padding-left: 0;
+  padding-right: 0
+}
+.input-group-sm>.form-control,
+.input-group-sm>.input-group-addon,
+.input-group-sm>.input-group-btn>.btn,
+.input-sm {
+  height: 28px;
+  padding: 5px 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  border-radius: 1px
+}
+.input-group-sm>.input-group-btn>select.btn,
+.input-group-sm>select.form-control,
+.input-group-sm>select.input-group-addon,
+select.input-sm {
+  height: 28px;
+  line-height: 28px
+}
+.input-group-sm>.input-group-btn>select[multiple].btn,
+.input-group-sm>.input-group-btn>textarea.btn,
+.input-group-sm>select[multiple].form-control,
+.input-group-sm>select[multiple].input-group-addon,
+.input-group-sm>textarea.form-control,
+.input-group-sm>textarea.input-group-addon,
+select[multiple].input-sm,
+textarea.input-sm {
+  height: auto
+}
+.form-group-sm .form-control {
+  height: 28px;
+  padding: 5px 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  border-radius: 1px
+}
+.form-group-sm select.form-control {
+  height: 28px;
+  line-height: 28px
+}
+.form-group-sm select[multiple].form-control,
+.form-group-sm textarea.form-control {
+  height: auto
+}
+.form-group-sm .form-control-static {
+  height: 28px;
+  min-height: 31px;
+  padding: 6px 10px;
+  font-size: 11px;
+  line-height: 1.5
+}
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon,
+.input-group-lg>.input-group-btn>.btn,
+.input-lg {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 17px;
+  line-height: 1.333333;
+  border-radius: 3px
+}
+.input-group-lg>.input-group-btn>select.btn,
+.input-group-lg>select.form-control,
+.input-group-lg>select.input-group-addon,
+select.input-lg {
+  height: 45px;
+  line-height: 45px
+}
+.input-group-lg>.input-group-btn>select[multiple].btn,
+.input-group-lg>.input-group-btn>textarea.btn,
+.input-group-lg>select[multiple].form-control,
+.input-group-lg>select[multiple].input-group-addon,
+.input-group-lg>textarea.form-control,
+.input-group-lg>textarea.input-group-addon,
+select[multiple].input-lg,
+textarea.input-lg {
+  height: auto
+}
+.form-group-lg .form-control {
+  height: 45px;
+  padding: 10px 16px;
+  font-size: 17px;
+  line-height: 1.333333;
+  border-radius: 3px
+}
+.form-group-lg select.form-control {
+  height: 45px;
+  line-height: 45px
+}
+.form-group-lg select[multiple].form-control,
+.form-group-lg textarea.form-control {
+  height: auto
+}
+.form-group-lg .form-control-static {
+  height: 45px;
+  min-height: 37px;
+  padding: 11px 16px;
+  font-size: 17px;
+  line-height: 1.333333
+}
+.has-feedback {
+  position: relative
+}
+.has-feedback .form-control {
+  padding-right: 42.5px
+}
+.form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none
+}
+.form-group-lg .form-control+.form-control-feedback,
+.input-group-lg+.form-control-feedback,
+.input-group-lg>.form-control+.form-control-feedback,
+.input-group-lg>.input-group-addon+.form-control-feedback,
+.input-group-lg>.input-group-btn>.btn+.form-control-feedback,
+.input-lg+.form-control-feedback {
+  width: 45px;
+  height: 45px;
+  line-height: 45px
+}
+.form-group-sm .form-control+.form-control-feedback,
+.input-group-sm+.form-control-feedback,
+.input-group-sm>.form-control+.form-control-feedback,
+.input-group-sm>.input-group-addon+.form-control-feedback,
+.input-group-sm>.input-group-btn>.btn+.form-control-feedback,
+.input-sm+.form-control-feedback {
+  width: 28px;
+  height: 28px;
+  line-height: 28px
+}
+.has-success .checkbox,
+.has-success .checkbox-inline,
+.has-success .control-label,
+.has-success .help-block,
+.has-success .radio,
+.has-success .radio-inline,
+.has-success.checkbox label,
+.has-success.checkbox-inline label,
+.has-success.radio label,
+.has-success.radio-inline label {
+  color: #34a853
+}
+.has-success .form-control {
+  border-color: #34a853;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+.has-success .form-control:focus {
+  border-color: #288140;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #6fd38a
+}
+.has-success .input-group-addon {
+  color: #34a853;
+  border-color: #34a853;
+  background-color: #bdebc9
+}
+.has-success .form-control-feedback {
+  color: #34a853
+}
+.has-warning .checkbox,
+.has-warning .checkbox-inline,
+.has-warning .control-label,
+.has-warning .help-block,
+.has-warning .radio,
+.has-warning .radio-inline,
+.has-warning.checkbox label,
+.has-warning.checkbox-inline label,
+.has-warning.radio label,
+.has-warning.radio-inline label {
+  color: #faa800
+}
+.has-warning .form-control {
+  border-color: #faa800;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+.has-warning .form-control:focus {
+  border-color: #c78600;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ffcb61
+}
+.has-warning .input-group-addon {
+  color: #faa800;
+  border-color: #faa800;
+  background-color: #ffedc7
+}
+.has-warning .form-control-feedback {
+  color: #faa800
+}
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error.checkbox label,
+.has-error.checkbox-inline label,
+.has-error.radio label,
+.has-error.radio-inline label {
+  color: #e53935
+}
+.has-error .form-control {
+  border-color: #e53935;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+.has-error .form-control:focus {
+  border-color: #cd1e1a;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #f1928f
+}
+.has-error .input-group-addon {
+  color: #e53935;
+  border-color: #e53935;
+  background-color: #fceaea
+}
+.has-error .form-control-feedback {
+  color: #e53935
+}
+.has-feedback label~.form-control-feedback {
+  top: 25px
+}
+.has-feedback label.sr-only~.form-control-feedback {
+  top: 0
+}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373
+}
+@media (min-width: 768px) {
+  .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle
+  }
+  .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle
+  }
+  .form-inline .form-control-static {
+    display: inline-block
+  }
+  .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle
+  }
+  .form-inline .input-group .form-control,
+  .form-inline .input-group .input-group-addon,
+  .form-inline .input-group .input-group-btn {
+    width: auto
+  }
+  .form-inline .input-group>.form-control {
+    width: 100%
+  }
+  .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle
+  }
+  .form-inline .checkbox,
+  .form-inline .radio {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle
+  }
+  .form-inline .checkbox label,
+  .form-inline .radio label {
+    padding-left: 0
+  }
+  .form-inline .checkbox input[type=checkbox],
+  .form-inline .radio input[type=radio] {
+    position: relative;
+    margin-left: 0
+  }
+  .form-inline .has-feedback .form-control-feedback {
+    top: 0
+  }
+}
+.form-horizontal .checkbox,
+.form-horizontal .checkbox-inline,
+.form-horizontal .radio,
+.form-horizontal .radio-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px
+}
+.form-horizontal .checkbox,
+.form-horizontal .radio {
+  min-height: 27px
+}
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px
+}
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before {
+  content: " ";
+  display: table
+}
+.form-horizontal .form-group:after {
+  clear: both
+}
+.form-control-feedback {
+  font-size: 17px
+}
+.input-pill {
+  border-radius: 10em;
+  padding-left: 1.25em;
+  padding-right: 1.25em
+}
+.form-wizard .fw-header {
+  border-bottom: 1px solid #e5e5e5
+}
+.form-wizard .nav-pills>li+li {
+  margin-left: 0
+}
+.form-wizard .nav-pills>li>a {
+  background-color: #1d87e4;
+  color: #fff;
+  border-radius: 0;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px 0 30px
+}
+.form-wizard .nav-pills>li>a .chevron {
+  border: 25px solid transparent;
+  border-left: 15px solid rgba(0, 0, 0, .15);
+  border-right: 0;
+  display: block;
+  position: absolute;
+  right: -15px;
+  top: 0;
+  z-index: 1
+}
+.form-wizard .nav-pills>li>a .chevron:before {
+  border: 25px solid transparent;
+  border-left: 15px solid #1d87e4;
+  border-right: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  right: 1px;
+  top: -25px
+}
+.form-wizard .nav-pills>li.active>a,
+.form-wizard .nav-pills>li.active>a:focus,
+.form-wizard .nav-pills>li.active>a:hover {
+  background-color: #1d87e4;
+  color: #fff
+}
+.form-wizard .nav-pills>li.active>a .chevron:before,
+.form-wizard .nav-pills>li.active>a:focus .chevron:before,
+.form-wizard .nav-pills>li.active>a:hover .chevron:before {
+  border-left-color: #1d87e4
+}
+.form-wizard .nav-pills>li.active~li>a,
+.form-wizard .nav-pills>li.active~li>a:focus,
+.form-wizard .nav-pills>li.active~li>a:hover {
+  background-color: #fff;
+  color: #1d87e4
+}
+.form-wizard .nav-pills>li.active~li>a .chevron:before,
+.form-wizard .nav-pills>li.active~li>a:focus .chevron:before,
+.form-wizard .nav-pills>li.active~li>a:hover .chevron:before {
+  border-left-color: #fff
+}
+.form-wizard .fw-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 30px
+}
+.form-wizard .fw-footer .pager {
+  margin: 0
+}
+.form-wizard .progress {
+  border-radius: 0;
+  height: 5px;
+  margin-bottom: 0;
+  box-shadow: none
+}
+.form-wizard .tab-content {
+  padding: 30px
+}
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px
+  }
+}
+.form-horizontal .has-feedback .form-control-feedback {
+  right: 15px
+}
+@media (min-width: 768px) {
+  .form-horizontal .form-group-lg .control-label {
+    padding-top: 11px;
+    font-size: 17px
+  }
+}
+@media (min-width: 768px) {
+  .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+    font-size: 11px
+  }
+}
+.custom-control {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 0;
+  min-height: 16px;
+  min-width: 16px;
+  padding-left: 25px;
+  position: relative;
+  vertical-align: middle
+}
+.custom-control+.custom-control {
+  margin-left: 10px
+}
+.custom-controls-stacked .custom-control {
+  display: block
+}
+.custom-controls-stacked .custom-control+.custom-control {
+  margin-left: 0;
+  margin-top: 10px
+}
+.custom-control-input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1
+}
+.custom-control-input:active~.custom-control-indicator,
+.custom-control-input:checked~.custom-control-indicator {
+  border: none
+}
+.custom-control-indicator {
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 18px;
+  z-index: 1;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  z-index: 1;
+}
+.custom-control-label::after {
+  top: 2px;
+}
+.custom-control-label::before {
+  top: 2px;
+}
+input[type=radio]+span.custom-control-indicator {
+  border-radius: 10px;
+}
+input[type=radio] + span.custom-control-indicator + .custom-control-label:after {
+  z-index: 99;
+}
+.custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.custom-control .custom-control-input:disabled~.custom-control-indicator {
+  cursor: not-allowed
+}
+.custom-control .custom-control-input:disabled:checked~.custom-control-indicator {
+  background-color: #eee
+}
+.custom-control-default .custom-control-input:checked~.custom-control-indicator {
+  background-color: #777
+}
+.custom-control-default .custom-control-input:active~.custom-control-indicator {
+  background-color: #b7b7b7
+}
+.custom-control-primary .custom-control-input:checked~.custom-control-indicator {
+  background-color: #1d87e4
+}
+.custom-control-primary .custom-control-input:active~.custom-control-indicator {
+  background-color: #8fc3f2
+}
+.custom-control-success .custom-control-input:checked~.custom-control-indicator {
+  background-color: #34a853
+}
+.custom-control-success .custom-control-input:active~.custom-control-indicator {
+  background-color: #83d99a
+}
+.custom-control-info .custom-control-input:checked~.custom-control-indicator {
+  background-color: #7d57c1
+}
+.custom-control-info .custom-control-input:active~.custom-control-indicator {
+  background-color: #c5b4e3
+}
+.custom-control-warning .custom-control-input:checked~.custom-control-indicator {
+  background-color: #faa800
+}
+.custom-control-warning .custom-control-input:active~.custom-control-indicator {
+  background-color: #ffd47b
+}
+.custom-control-danger .custom-control-input:checked~.custom-control-indicator {
+  background-color: #e53935
+}
+.custom-control-danger .custom-control-input:active~.custom-control-indicator {
+  background-color: #f4a8a6
+}
+
+.switch {
+  display: inline-block;
+  font-weight: 400;
+  min-height: 18px;
+  min-width: 40px;
+  padding-left: 50px;
+  position: relative
+}
+.switch .s-input {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0
+}
+.switch .s-content {
+  cursor: pointer;
+  display: block;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 40px
+}
+.switch .s-track {
+  background: #e5e5e5;
+  border-radius: 8px;
+  display: block;
+  height: 16px;
+  position: relative
+}
+.switch .s-input:checked+.s-content .s-track {
+  background: #e5e5e5
+}
+.switch .s-handle {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
+  display: block;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 18px;
+  z-index: 1
+}
+.switch .s-input:checked+.s-content .s-handle {
+  left: 25px
+}
+.switch.switch-primary .s-input:checked+.s-content .s-handle {
+  background: #1d87e4
+}
+.switch.switch-success .s-input:checked+.s-content .s-handle {
+  background: #34a853
+}
+.switch.switch-info .s-input:checked+.s-content .s-handle {
+  background: #7d57c1
+}
+.switch.switch-warning .s-input:checked+.s-content .s-handle {
+  background: #faa800
+}
+.switch.switch-danger .s-input:checked+.s-content .s-handle {
+  background: #e53935
+}
+.switch .s-desc {
+  display: block;
+  line-height: 18px
+}
+.switches-stacked .switch {
+  display: block;
+  margin-bottom: 15px
+}
+.switches-stacked .switch:last-child {
+  margin-bottom: 0
+}
+
+.file-upload-btn {
+  display: inline-block;
+  overflow: hidden;
+  position: relative
+}
+.file-upload-input {
+  bottom: 0;
+  cursor: inherit;
+  font-size: 1000px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  right: 0
+}
+.form-control {
+  height: 42px;
+  font-size: 14px;
+}
+span.input-group-btn {
+  background: #ccc;
+}

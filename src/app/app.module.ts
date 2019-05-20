@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BlankTemplateComponent } from './template/blank-template.component';
 import { LeftNavTemplateComponent } from './template/left-nav-template.component';
-import {AppRoutingModule} from './app.routing';
+import {AppRoutingModule, routes} from './app.routing';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { UiElementsComponent } from './ui-elements/ui-elements.component';
@@ -24,8 +24,7 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpModule,
-    RouterModule
+    RouterModule.forRoot(routes, { useHash: true })
 
 
   ],

@@ -7,7 +7,7 @@ const routes: Routes = [
     pathMatch: 'full',
     component: DashboardComponent,
     data: {
-      title: 'Dashboard Works'
+      title: 'Dashboard Component'
     }
   }
 ];
