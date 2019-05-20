@@ -1,6 +1,6 @@
 # Angular Admin
 
-This is a free admin template using AngularJs 4
+This is a free admin template using Angular 7
 
 ## Development server
 
