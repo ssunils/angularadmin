@@ -17,21 +17,21 @@ export const routes: Routes = [{
   children: [
     {
       path: 'dashboard',
-      loadChildren: './dashboard/dashboard.module#DashboardModule',
+      loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule),
       data: {
         title: 'Dashboard Page'
       },
     },
     {
       path: 'ui-elements',
-      loadChildren: './ui-elements/ui-elements.module#UiElementsModule',
+      loadChildren: () => import('./ui-elements/ui-elements.module').then(m => m.UiElementsModule),
       data: {
         title: 'UI Elements'
       },
     },
     {
       path: 'forms',
-      loadChildren: './forms/forms.module#FormsModule',
+      loadChildren: () => import('./forms/forms.module').then(m => m.FormsModule),
       data: {
         title: 'Form Page'
       },
@@ -46,7 +46,7 @@ export const routes: Routes = [{
   children: [
     {
       path: '',
-      loadChildren: './tables/tables.module#TablesModule'
+      loadChildren: () => import('./tables/tables.module').then(m => m.TablesModule)
     }
   ]
 }, {
