@@ -1,6 +1,6 @@
-# Angular Admin
+# Angular 9 Admin
 
-This is a free admin template using Angular 8
+This is a free admin template using Angular 9
 
 ## Development server
 
