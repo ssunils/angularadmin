@@ -2,6 +2,16 @@
 
 This is a free admin template using Angular 9
 
+## What's Included
+Angular 9 & Typescript
+Bootstrap 4+ & SCSS
+Responsive layout
+RTL support
+High resolution
+Flexibly configurable themes with hot-reload (3 themes included)
+Authentication module with multiple providers
+20+ Angular Components
+
 ## Development server
 
 Run `npm start` for a front-end dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
