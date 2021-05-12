@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "^9.0.0",
     "@angular/router": "^9.0.0",
     "bootstrap": "^4.3.1",
-    "chart.js": "^2.5.0",
+    "chart.js": "^2.9.4",
     "core-js": "^2.5.7",
     "express": "^4.16.2",
     "g": "^2.0.1",
